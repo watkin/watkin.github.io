@@ -1,0 +1,112 @@
+---
+layout: post
+title:  "Unity3D 开发优秀技术资源汇总"
+date:   2015-09-03 16:05:32
+categories: blod
+---
+
+原文：http://www.j2megame.com/html/xwzx/ty/3179.html
+
+**Unity3D 博客**
+
+[http://www.dapp.com.br/]  by Dapp 
+http://www.m2h.nl/unity/  by M2H
+http://www.everyday3d.com/blog/  by Bartek drozdz
+http://www.untoldentertainment.com/blog/category/blog/
+http://unity3dstore.com/   by unity3dstore
+http://thecodebook.wordpress.com/  by the codebook
+http://blog.almostlogical.com/category/unity3d/
+http://eej.dk/angryant/
+http://www.burgzergarcade.com/
+http://col000r.blogspot.com/
+http://technology.blurst.com/
+http://infiniteammo.ca/
+http://infiniteunity3d.com/
+http://learnunity3d.com/
+http://www.pixelstudio.nl/
+http://www.blog.silentkraken.com/
+http://unity3d.collected.info/
+http://www.variancetheory.com/
+
+**Unity3D forum**
+
+http://answers.unity3d.com/
+http://forum.unity3d.com/"
+http://www.theunityartist.com/forum/index.php
+http://forums.tigsource.com/index.php
+http://forum.unity-community.de/
+
+**Unity3D Framework**
+
+http://unity3dstore.com/?page_id=59
+http://variancetheory.com/detonator/
+http://www.anbsoft.com/middleware/ezs/
+http://stinkbot.com/u3d/index.html
+http://itween.pixelplacement.com/
+http://technology.blurst.com/unityscript-messaging-system/
+http://www.anbsoft.com/middleware/sm2/index.htm
+http://unifycommunity.com/wiki/index.php?title=SpriteManager
+http://www.xtuio.com/
+http://starscenesoftware.com/vectrosity.html
+
+**Unity3D iPhone 开发**
+
+http://unity3d.com/support/resources/tutorials/video-occlusion-culling
+http://infiniteunity3d.com/unity3d-iphone-unityremote-game-development-list/
+http://www.tinytimgames.com/2010/01/10/the-unityobjective-c-divide/
+http://www.unifycommunity.com/wiki/index.php?title=IPhone_Getting_Started_with_the_UnityRemote
+
+**Unity3D 资源**
+
+http://www.frogames.net/
+http://www.the-blueprints.com/
+http://www.turbosquid.com/
+http://www.unityprefabs.com/
+
+**Unity3D 工具**
+
+[+http://www.gamr7.com/init/urban_pad/index+]
+http://masteranza.wordpress.com/unity/lightmapping/
+http://www.unifycommunity.com/wiki/index.php?title=FingerManager
+http://www.unifycommunity.com/wiki/index.php?title=Scripts
+http://infiniteunity3d.com/modifiers-in-unity3d/
+http://infiniteunity3d.com/simple-audiomanager-code-for-your-unity3d-project/
+http://files.silentkraken.com/tools/unity3d/TransformUtilities/TransformUtilitiesWindow.cs
+
+**Unity3D Tutorials**
+
+http://infiniteunity3d.com/unity-3d-artificial-intelligence-tutorials-from-steamism50/
+http://www.youtube.com/user/BurgZergArcade
+http://infiniteammo.ca/blog/tag/tutorial/
+http://infiniteunity3d.com/obstacle-avoidance-in-unity3d-from-devon-klompmaker/
+http://www.youtube.com/user/TornadoTwins
+http://www.unifycommunity.com/wiki/index.php?title=Tutorials
+http://vimeo.com/unity3d
+http://www.unity-community.de/tutorials/spiele-entwicklung
+http://www.unityprefabs.com/how-to-make-a-fps-game-tutorial.html
+
+**Unity3D Workflow**
+
+http://www.mixamo.com/c/help/workflows_unity/?utm_source=pr&utm_medium=press+release&utm_content=workflow?  http://apod.nasa.gov/apod/
+http://planetpixelemporium.com/index.php
+
+**GameDev Resources**
+
+http://www.brusheezy.com/
+http://getbrushes.com/
+http://www.brushking.eu/
+http://www.vectorstock.com/
+
+**GameDev Blogs**
+
+http://www.drawlogic.com/
+http://digestingduck.blogspot.com/
+http://blog.generalrelativity.org/
+http://gwynmakesgames.tumblr.com/
+
+
+
+
+
+
+[http://www.dapp.com.br/]:     http://www.dapp.com.br/

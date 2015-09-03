@@ -1,0 +1,18 @@
+# Site settings
+title: Watkin
+email: jski.chen@gmail.com
+description: welcome
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jskiChen
+github_username:  watkin
+
+# Build settings
+markdown: kramdown
+
+
+source:      .
+destination: ../watkin_web/_site
+
+port:    4000
+host:    192.168.3.123
