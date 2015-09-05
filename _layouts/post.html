@@ -15,10 +15,10 @@ layout: default
         <p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;&nbsp;本文链接地址：<a title="{{page.title}}" href="{{site.production_url}}{{page.url}}">{{site.production_url}}{{page.url}}</a><br />
         &nbsp;&nbsp;&raquo;&nbsp;&nbsp;&nbsp;欢迎订阅本站：您可以选择通过<a href="{{site.JB.rss_path}}" target="_blank">RSS阅读器</a>订阅<br />
         <span class="icon-info"></span>声明:如無特別申明,文章均為博主原創并遵循 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh" title="署名-非商业性使用-相同方式共享3.0共享协议" target="_blank" rel="nofollow">BY-NC-SA-3.0</a>. 转载请注明转自<a title="{{site.tagline}}" href="{{site.production_url}}" rel="inlinks">{{site.title}} &trade;</a></p>
-    </div>
+  </div>
     {% if page.comments %}
        	<!-- Duoshuo Comment BEGIN -->
-  <div class="ds-thread" data-thread-key="{{page.pid}}"></div>
+ 		<div class="ds-thread" data-thread-key="{{page.pid}}"></div>
         <script type="text/javascript">
             var duoshuoQuery = {short_name:'watkin'};
                 (function() {
@@ -35,18 +35,17 @@ layout: default
     {% else %}
         <div id="ds-thread"><hr /><p>评论已关闭</p></div>
     {% endif %}
-
-
 </div>
+
 <center>
 {% if page.previous or page.next %}
-<div id="page_nav">
-    {% if page.previous %}
-    <a href='{{page.previous.url}}'>← Prev</a>
-    {% endif %}
-    {% if page.next %}
-    <a href='{{page.next.url}}'>Next →</a>
-    {% endif %}
-</div>
-{% endif %}
+	<div id="page_nav">
+	    {% if page.previous %}
+	    <a href='{{page.previous.url}}'>← Prev</a>
+	    {% endif %}
+	    {% if page.next %}
+	    <a href='{{page.next.url}}'>Next →</a>
+	    {% endif %}
+	</div>
+	{% endif %}
 </center>
