@@ -15,7 +15,7 @@ source:      .
 destination: ../watkin_web/_site
 
 port:    4000
-host:    192.168.3.123
+host:    127.0.0.1
 
 
 comments :
