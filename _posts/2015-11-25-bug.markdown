@@ -7,6 +7,7 @@ comments: true
 ---
 解决：
 
+
 1.打开unity对应以下路径
 /Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/Tools/OSX/Unity4XC.xcplugin/Contents/Info.plist
 
