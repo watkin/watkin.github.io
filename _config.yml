@@ -9,6 +9,7 @@ github_username:  watkin
 
 # Build settings
 markdown: kramdown
+highlight: true
 
 
 source:      .
@@ -16,7 +17,6 @@ destination: ../watkin_web/_site
 
 port:    4000
 host:    127.0.0.1
-
 
 comments :
   provider : duoshuo
