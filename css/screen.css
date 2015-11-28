@@ -41,6 +41,9 @@ h1 {
 p {
   margin: 1em 0;
 }
+right{
+  text-align: right;
+}
 .left{ text-align:left; } /* 左对齐 */
 .right{ text-align:right; } /* 右对齐 */
 .center{ text-align:center; } /* 居中对齐 */
