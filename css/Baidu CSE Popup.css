@@ -1,0 +1,295 @@
+/*弹出框自定义样式表*/
+/*
+ * 在每个需要的节点上加上tagname限制
+ */
+div#popup-searchbox {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;   
+    font-size: 12px;
+}
+
+#popup-searchbox .popupbox-item{
+    border: solid 1px ;
+    position: relative;
+}
+
+#popup-box-detail .bdcs-container .bdcs-hot {
+    margin-top: 5px;
+}
+
+#popup-top {
+    border-bottom: solid 1px #ececec;
+}
+
+#popup-back {
+    padding-right:5px;
+    padding-left: 5px;  
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    font-size: 18px;
+    border-left: solid 1px;
+    height: 29px;
+    cursor: pointer;
+    float: right;
+}
+
+
+#popup-top .top-bg {
+    margin-left: 10px;
+    float: left;
+}
+
+#popup-box-detail {
+    padding: 20px;
+}
+
+#popup-searchbox  input{
+    border: solid 1px;
+    margin-right: 0;
+    text-indent: 0.5em;
+}
+
+
+#popup-box-detail #popup-search-form-submit {
+    /*//text-indent: 0em;*/
+}  
+
+#popup-searchbox .popup-icon{
+    height: 40px;
+    width: 40px;
+    background: url('/static/customer-search/img/search-icon.png') no-repeat center center;
+}
+
+#popup-searchbox .pop-submit-magnifier{
+    background: url('/static/customer-search/img/search-icon.png') no-repeat center center;
+    text-indent : -999em;
+}
+
+
+
+#popup-searchbox #popup-search-form-submit {
+    padding: 0px;
+    width: 40px;
+    text-align: center;
+    position: relative;
+}
+
+html[data-useragent*='MSIE 10.0'] #popup-box #popup-searchbox #popup-search-form-submit {
+    top: 0px;
+}
+
+#popup-box-detail a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px 3px;
+    display: inline-block;
+}
+
+#popup-hot{
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.popup-search-sug-list-item {
+    cursor: pointer;
+}
+
+.popup-search-sug-list-item-value {
+    position: relative;	
+    left: 5px;
+}
+
+.popup-search-sug-list-item-author-novel, .popup-search-sug-list-item-author-music, .popup-search-sug-list-item-type-movie {
+    color: #BABABA;
+}
+.popup-search-sug-list-item-author-novel, .popup-search-sug-list-item-author-music {
+    position: relative;
+    left: 5px;
+}
+.popup-search-sug-list-item-music {
+    overflow: hidden;
+    *zoom: 1;
+}
+#popup-search-sug .popup-search-sug-list-item-current{
+    background-color: #F5F5F5;
+}
+#popup-search-sug .popup-search-sug-list-item-value-movie {
+    float: left;
+}
+#popup-search-sug .popup-search-sug-list-item-type-movie {
+    float: right;
+    margin-right: 5px;
+}
+
+#popup-search-form-input {
+    border-radius: 0;
+    float: none;
+    padding: 0;
+    vertical-align: middle;
+}
+#popup-search-form-submit {
+    border-radius: 0;
+    float: none;
+    vertical-align: middle;
+}
+
+/*频道样式*/
+div#popup-searchbox  .popup-channel-meun{
+    position: relative;
+    width: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    cursor: pointer;
+}
+div#popup-searchbox .popup-channel-current{
+    border: 1px solid;
+    position: relative;
+    width: 100%;
+    border-right: none;
+}
+
+div#popup-searchbox .popup-channel-current span{
+    margin-left: 8px;
+}
+
+div#popup-searchbox .popup-channel-current i{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border-width: 6px 6px 0;
+    border-color: #9E9E9E #ffffff;
+    border-style: solid;
+    display: block;
+    position: absolute;
+    right:10px;
+    top: 15px;
+}
+
+div#popup-searchbox .popup-channel-list{
+    display: none;
+    width: 100%;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #DDD;
+    border-top: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    overflow: auto;
+    height: 70px;
+    z-index: 30000;
+}
+
+div#popup-searchbox .popup-channel-list li{
+    background: none;
+    line-height: 24px;
+    list-style: none;
+    padding-left: 7px;
+}
+div#popup-searchbox .popup-channel-list li:hover{
+    background: #DDD;
+}
+
+#popup-searchbox .popupbox-item{
+    height:160px;
+    width:460px;
+    border-color:#ececec;
+}
+
+#popup-top{
+    background-color:#f5f5f5;
+    height:30px;
+    color:#666666;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:14px;
+    font-weight:normal;
+}
+#popup-box-detail{
+    background-color:#fff;
+}
+#popup-searchbox .popup-icon{
+    background-color:#f35b5b;
+}
+#popup-searchbox input{
+    height:35px;
+    width:250px;
+    border-color:#ececec;
+    background-color:#fff;
+    color:#666666;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:12px;
+    font-weight:normal;
+}
+#popup-searchbox input:focus{
+    border-color:#f35b5b;
+}
+#popup-searchbox #popup-search-form-submit{
+    background-color:#f35b5b;
+    border-color:#f35b5b;
+    color:#ffffff;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:14px;
+    font-weight:normal;
+}
+#popup-search-sug .popup-search-sug-list-item{
+    line-height:14px;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:14px;
+}
+#popup-search-sug .popup-search-sug-list-item-value{
+    color:#000000;
+}
+#popup-hot{
+    height:26px;
+}
+#popup-box-detail a{
+    font-size:14px;
+    color:#92d050;
+    font-family:Arial,Microsoft YaHei,sans-serif;
+}
+#popup-box-detail a:hover{
+    background-color:#000000;
+}
+#popup-top{
+    border-bottom-color:rgb(236, 236, 236);
+}
+#popup-back{
+    border-left-color:rgb(236, 236, 236);
+    color:rgb(236, 236, 236);
+}
+
+#popup-searchbox #popup-search-form-submit{
+    position:relative;
+    left:0px;
+    height:35px;
+}
+#popup-hot{
+    width:420px;
+}
+#popup-box-detail{
+    height:130px;
+}
+
+#popup-search-form-input{
+    line-height:35px;
+}
+
+div#popup-searchbox .popup-channel-current{
+    height:35px;
+    line-height:35px;
+    border-color:#ececec;
+}
+.popup-icon{
+    position:relative;
+    left:422px;
+}
+
+#popup-searchbox{
+    position:fixed;
+    left:1200px;
+}
