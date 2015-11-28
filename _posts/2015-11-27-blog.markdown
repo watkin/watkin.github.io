@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "Unity 脚本生命周期"
+date:   2015-11-27 21:30:32
+categories: blog
+comments: true
+---
+![1](/images/1.png)
+当我们把脚本添加到物体上后
+<h2>立刻调用：</h2>
+在编辑窗口中就调用
+Reset    
+
+<h2>运行游戏后：</h2>
+
+只要物体是存在的调用：<br>
+Awake   --  初始函数，无论脚本组件是否被激活，游戏开始时 自动调用，一般用来创建变量 
+
+OnEnable 
+
+<h2>更新</h2>
+如果脚本被调用后：<br>
+Start：--  初始化函数，只有脚步组件被激活才被调用，在所有Awake函数运行完之后，Update函数运行之前，一般用来给变量赋值
+
+FixedUpdate: 基于物理时间的计算，每隔固定时间调用一次（unity物理运行基本都是通过固定时间来算的）
+
+<h2>每桢都会调用</h2>
+Update  --  脚本每一帧调用一次 ，一般用于非物理运动
+（如果改变物体位置使用该方法 可以乘以Time.deltaTime 来使物体运动更加稳定）
+
+其他的所有Update调用完后 再调用
+LateUpdate
+
+<h2>渲染</h2>
+OnWillRenderObject  
+
+<h2>GUI</h2>
+OnGUI：调用完上面的所有的函数后进行调用
+
+
+<h2>销毁</h2>
+OnDisable：当这个组件被隐藏的时候调用     
+OnDestroy:当这个组件被销毁的时候调用
+
+
+<h2>脚本的声明</h2>
+
+编辑器可见类型：
+
+boolean(选框）
+
+int 文本框    
+float 文本框    
+byte 文本框   
+string 文本框    
+
+vector2 两个文本框    
+vector3 三个文本框    
+Quaternion 四个文本框    
+
+GameObject  可选绑定框  所有物体对象都可以    
+Script（具体 使用脚本名）  可选绑定框     
+ 
+public enum emType {A,B,c}//编辑器不会看到    
+public emType  em;     一个下拉菜单    
+
+Public 可以在编辑器里面修改     
+[SerializeField]在变量上面加上这个 可序列化  编辑器中也可见    
+[HideInInspector]如果public变量上面添加该标签后 在编辑器就看不到了    
+[System.Serializable] 该标签 放到类上面一行   代表该类下面所有的变量都可以在编辑器中看到 （需要实例化该类）    
+
+利用反射来查找物体：    
+
+GameObject.Find ("name");//从Hierarchy最下面开始查找该名字的物体     
+GameObject.FindGameObjectWithTag("tag")//通过标签进行查找物体
+
+注意值类型和引用类型
+
