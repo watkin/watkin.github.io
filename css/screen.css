@@ -41,7 +41,10 @@ h1 {
 p {
   margin: 1em 0;
 }
-
+.left{ text-align:left; } /* 左对齐 */
+.right{ text-align:right; } /* 右对齐 */
+.center{ text-align:center; } /* 居中对齐 */
+.justify{ text-align:justify; } /* 两端对齐 */
 /*a {
   color: #00a;
 }
