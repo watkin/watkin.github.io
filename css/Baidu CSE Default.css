@@ -21,7 +21,7 @@
     border-radius:0;
     box-shadow:none;
     transition:none;
-    text-align:left;
+    text-align:right;
 }
 
 .bdcs-container .bdcs-clearfix:after {

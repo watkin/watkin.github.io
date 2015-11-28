@@ -1,0 +1,343 @@
+/*
+ * 侧滑式自定义样式
+ * 在每个节点上增加一个div#sliding-searchbox
+ */
+
+/*四种图标样式*/
+div#sliding-searchbox.sliding-searchbox-one #sliding-icon-left {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-right.png') no-repeat center center;
+    margin-right: 15px;
+    float: left;
+}
+div#sliding-searchbox.sliding-searchbox-two #sliding-icon-left {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-two-left.png') no-repeat center center;
+    margin-right: 15px;   
+    float: left;
+}
+
+div#sliding-searchbox.sliding-searchbox-three #sliding-icon-left {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-three-left.png') no-repeat center center;
+    margin-right: 15px;   
+    float: left;
+}
+div#sliding-searchbox.sliding-searchbox-four #sliding-icon-left {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-four-left.png') no-repeat center center;
+    margin-right: 15px;
+    float: left;
+}
+
+/**/
+div#sliding-searchbox #sliding-back-right{
+    float: left;
+    height: 60px;
+    width: 14px;
+    background: url('/static/customer-search/img/back-right-common.png') no-repeat center center;
+}
+
+div#sliding-searchbox.sliding-searchbox-four #sliding-back-right{
+    float: left;
+    height: 60px;
+    width: 14px;
+    background: url('/static/customer-search/img/back-right-common-four.png') no-repeat center center;
+}
+
+
+#sliding-box-item {
+    width: 383px;
+    border: solid 1px;
+    float:left;
+}
+
+#sliding-box-item input {
+    border: solid 1px;
+    margin-right: 0;
+/*    margin-top: 20px;
+    margin-left: 10px;*/
+    text-indent: 0.5em;
+}
+
+.sliding-box-meun #sliding-search-form-submit {
+    text-indent: 0em;
+}  
+
+#sliding-hot {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+
+    height:21px;
+    width:363px;
+}
+
+#sliding-box-item .bdcs-container .bdcs-hot {
+    height: 50px;
+}
+
+#sliding-searchbox #sliding-search-form .sliding-submit-magnifier {
+    background: url('/static/customer-search/img/search-icon.png') no-repeat center center;
+    text-indent : -999em;
+}
+
+.sliding-searchbox-four #sliding-searchbox .sliding-submit-magnifier {
+    background: url('/static/customer-search/img/search-icon-four.png') no-repeat center center;
+    text-indent : -999em;
+}
+
+#sliding-searchbox #sliding-box-item #sliding-search-form-submit {
+    width: 40px;
+    text-align: center;
+    margin-left: 0px;
+    position: relative;
+}
+
+#sliding-box-item input:focus {
+    border:1px solid;
+}
+
+#sliding-back {
+    height: 60px;
+    width: 14px;
+    background: url('/static/customer-search/img/back-left-common.png') no-repeat center center;
+    float: left;
+}
+
+.sliding-searchbox-four #sliding-back {
+    height: 60px;
+    width: 14px;
+    background: url('/static/customer-search/img/back-left-common-four.png') no-repeat center center;
+    float: left;
+}
+
+#sliding-search-sug-list {
+    position: relative;
+    //margin-left: 10px;
+}
+
+#sliding-search-sug .sliding-search-sug-list-item-current {
+    background-color: #F5F5F5;
+}
+
+
+div#sliding-searchbox.sliding-searchbox-one #sliding-icon-right {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-left.png') no-repeat center center; 
+    float: left;
+    margin-left: 15px;
+}
+
+div#sliding-searchbox.sliding-searchbox-two #sliding-icon-right {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-two-right.png') no-repeat center center; 
+    float: left;
+    margin-left: 15px;
+}
+
+div#sliding-searchbox.sliding-searchbox-three #sliding-icon-right {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-three-right.png') no-repeat center center;
+    float: left;
+    margin-left: 15px;
+}
+
+div#sliding-searchbox.sliding-searchbox-four #sliding-icon-right {
+    height: 60px;
+    width: 50px;
+    background: url('/static/customer-search/img/slidingbox-icon-four-right.png') no-repeat center center;
+    float: left;
+    margin-left: 15px;
+}
+
+#sliding-box-detail a{
+    text-decoration: none;
+    padding: 3px 3px;
+    display: inline-block;
+}
+
+
+.sliding-search-sug-list-item {
+    cursor: pointer;    
+}
+
+.sliding-search-sug-list-item-value {
+    position: relative; 
+    left: 5px;
+}
+
+
+.sliding-search-sug-list-item-author-novel, .sliding-search-sug-list-item-author-music, .sliding-search-sug-list-item-type-movie {
+    color: #BABABA;
+}
+.sliding-search-sug-list-item-author-novel, .sliding-search-sug-list-item-author-music {
+    position: relative;
+    left: 5px;
+}
+.sliding-search-sug-list-item-music {
+    overflow: hidden;
+    *zoom: 1;
+}
+#sliding-search-sug .sliding-search-sug-list-item-value-movie {
+    float: left;
+}
+#sliding-search-sug .sliding-search-sug-list-item-type-movie {
+    float: right;
+}
+
+#sliding-search-form-submit {
+    border-radius: 0;
+    float: none;
+    vertical-align: middle;
+}
+
+#sliding-searchbox {
+    overflow: visible;
+    z-index: 99999;
+}
+
+div#sliding-searchbox .sliding-box-meun{
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+/*频道样式*/
+div#sliding-searchbox  .sliding-channel-meun{
+    position: relative;
+    width: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    cursor: pointer;
+}
+div#sliding-searchbox .sliding-channel-current{
+    border: 1px solid;
+    position: relative;
+    width: 100%;
+    border-right: none;
+}
+
+div#sliding-searchbox .sliding-channel-current span{
+    margin-left: 8px;
+}
+
+div#sliding-searchbox .sliding-channel-current i{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border-width: 6px 6px 0;
+    border-color: #9E9E9E #ffffff;
+    border-style: solid;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+div#sliding-searchbox .sliding-channel-list{
+    display: none;
+    width: 100%;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #DDD;
+    border-top: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 30000;
+}
+
+div#sliding-searchbox .sliding-channel-list li{
+    background: none;
+    line-height: 24px;
+    list-style: none;
+    padding-left: 7px;
+}
+div#sliding-searchbox .sliding-channel-list li:hover{
+    background: #DDD;
+}
+
+#sliding-box-item{
+    width:383px;
+    height:120px;
+    background-color:#fff;
+    border-color:#ececec;
+}
+
+div#sliding-searchbox #sliding-back-right, div#sliding-searchbox #sliding-back{
+    background-color:#1a89ed;
+}
+#sliding-box-item input{
+    width:220px;
+    height:35px;
+    border-color:#ececec;
+    color:#666;
+    font-size:12px;
+    font-family:Arial,SimSun,sans-serif;
+}
+
+#sliding-box-item #sliding-search-form-submit{
+    background-color:#1a89ed;
+    border-color:#1a89ed;
+    color:#fff;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    position:relative;
+    left:0px;
+    height:35px;
+
+}
+#sliding-box-item input:focus{
+    border-color:#87C6F9;
+}
+#sliding-search-sug .sliding-search-sug-list-item-value{
+    color:#000000;
+}
+#sliding-search-sug .sliding-search-sug-list-item{
+    line-height:14px;
+    font-family:Arial,SimSun,sans-serif;
+    font-size:14px;
+}
+
+#sliding-box-detail a{
+    font-size:14px;
+    color:#000000;
+    font-family:Arial,Microsoft YaHei,sans-serif;
+}
+#sliding-box-detail a:hover{
+    background-color:#ff0000;
+}
+
+
+#sliding-search-form-input{
+    line-height:35px;
+    border-radius: 0;
+    float: none;
+    padding: 0;
+    vertical-align: middle;
+}
+
+
+div#sliding-searchbox .sliding-channel-current{
+    height:35px;
+    line-height:35px;
+    border-color:#ececec;
+}
+
+/*框的位置*/
+#sliding-searchbox{
+    position:fixed;
+    left:-491px;
+    top:150px;
+}
