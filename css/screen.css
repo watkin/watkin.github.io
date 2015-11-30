@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h4{
-  color: #00a;
+  color: #000;
 }
 
 h6{
@@ -71,7 +71,7 @@ table {
 /*
 /*****************************************************************************/
 
-ul.posts {
+/*ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -84,7 +84,7 @@ ul.posts {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
-  }
+  }*/
 
 /*****************************************************************************/
 /*

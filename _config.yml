@@ -1,9 +1,9 @@
 # Site settings
 title: Watkin
 email: jski.chen@gmail.com
-description: welcome
+description: 小小码农的世界
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://wkchen.com/" # the base hostname & protocol for your site
+url: "http://blog.wkchen.com/" # the base hostname & protocol for your site
 twitter_username: jskiChen
 github_username:  watkin
 

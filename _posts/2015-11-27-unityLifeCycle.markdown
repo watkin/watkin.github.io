@@ -2,6 +2,8 @@
 layout: post
 title:  "Unity 脚本生命周期"
 date:   2015-11-27 21:30:32
+subtitle:   ""
+author:     "Watkin"
 categories: blog
 comments: true
 ---

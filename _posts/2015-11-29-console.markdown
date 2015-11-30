@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Unity Console 面板"
+date:   2015-11-30 19:30:32
+subtitle:   ""
+author:     "Watkin"
+categories: blog
+comments: true
+---
+<h4>调出面板：</h4>  
+菜单-Window->chonsole (command+shift+c)
+注释：两斜杆（command+alt+c)
+
+<h4>两种调用控制台日志脚本：</h4>  
+{% highlight c#%}
+print("hello Unity");
+Debug.log("hello Unity");//推荐使用这个  因为 print 也是调用了该方法
+Debug.LogWarning("warning");//输入警告 三角形
+Debug.LogError("Error");//输出错误  红色 八方形
+{% endhighlight %}
+
+如果随便输出错误的时候  unity控制台就会有错误提示 除非修正回来 不然不会消失
+
+
+<h4>控制台面版的一些属性说明：  </h4>  
+* **1.clear onplay**  选中 代表每次程序运行时 都会重新刷新整个的debug日志输出    
+
+* **2.clear**   选中 所有控制台信息都会被清除    
+
+* **3.Collapse**   选中后 同一个脚本 而且输出一样结果的用一行表示 (后面有数字说明输出了多少)    
+
+* **4.Error Pause:**  如果输出有错误输出的时候 当前游戏是否停止    
+
+* **5.右上角的 三个信息**  代表了 是否在控制台中是否显示 正常信息，警告信息，错误信息     
+
+<h4>点击三角形和三横行  代表更多选项</h4>          
+* **Open Player Log**  打开Player.log日志面板    
+* **Open Editor Log**  打开Editor.log日志面板    
+* **Maxminize**  选中代表最大化  取消恢复正常    
+* **Close Tap**  关闭当前面板    
+
+<blockquote>
+</blockquote>

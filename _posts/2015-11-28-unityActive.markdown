@@ -2,6 +2,8 @@
 layout: post
 title:  "Unity 物体组件开关"
 date:   2015-11-28 19:30:32
+subtitle:   ""
+author:     "Watkin"
 categories: blog
 comments: true
 ---

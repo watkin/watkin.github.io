@@ -2,6 +2,8 @@
 layout: post
 title:  "UnityException: Launching iOS project via Xcode4 failed. Check editor log for details"
 date:   2015-11-25 17:05:32
+subtitle:   ""
+author:     "Watkin"
 categories: bug
 comments: true
 ---
