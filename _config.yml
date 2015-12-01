@@ -10,7 +10,7 @@ github_username:  watkin
 # Build settings
 markdown: kramdown
 highlight: true
-
+paginate: 5
 
 source:      .
 destination: ../watkin_web/_site
