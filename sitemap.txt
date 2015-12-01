@@ -1,4 +1,4 @@
-http://blog.wkchen.com/
-http://blog.wkchen.com/bug/2015/11/25/bug.html
-http://blog.wkchen.com/blog/2015/11/26/blog.html
-http://blog.wkchen.com/blog/2015/11/27/blog.html
+http://watkin.github.io
+http://watkin.github.io/bug/2015/11/25/bug.html
+http://watkin.github.io/blog/2015/11/26/blog.html
+http://watkin.github.io/blog/2015/11/27/blog.html
