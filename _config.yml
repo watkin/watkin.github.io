@@ -6,11 +6,11 @@ description: 一码农小小世界
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.wkchen.com/" # the base hostname & protocol for your site\
 
-# weibo_username:     watkin
+weibo_username:     watkin
 zhihu_username:     watkin
 # github_username:    watkin
 twitter_username:  jskiChen
-#facebook_username:  watkin
+#facebook_username:  jskiChen
 
 # Build settings
 markdown: kramdown
