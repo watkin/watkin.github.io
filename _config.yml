@@ -1,11 +1,16 @@
 # Site settings
 title: Watkin
 email: jski.chen@gmail.com
+header-img: img/top.jpg
 description: 小小码农的世界
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.wkchen.com/" # the base hostname & protocol for your site
-twitter_username: jskiChen
-github_username:  watkin
+url: "http://blog.wkchen.com/" # the base hostname & protocol for your site\
+
+# weibo_username:     watkin
+zhihu_username:     watkin
+github_username:    watkin
+twitter_username:  jskiChen
+#facebook_username:  watkin
 
 # Build settings
 markdown: kramdown

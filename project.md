@@ -1,5 +1,6 @@
 ---
 layout: page
+header-img: img/tags-bg.jpg
 title: 项目|Project
 permalink: /project/
 comments: true

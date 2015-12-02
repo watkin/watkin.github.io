@@ -7,7 +7,7 @@ author:     "Watkin"
 categories: blog
 comments: true
 ---
-![1](/images/1.png)
+![1](/public/upload/1.png)
 
 当我们把脚本添加到物体上后
 <h4>立刻调用：</h4>
