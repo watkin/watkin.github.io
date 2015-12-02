@@ -367,7 +367,9 @@ a:focus {
     width: 900px;
     padding-bottom: 120px;
 
-    background-image: url(http://www.gravatar.com/avatar/318643095c83b914cf80a7f99f247fe6?s=160);
+    /*background-image: url(http://www.gravatar.com/avatar/318643095c83b914cf80a7f99f247fe6?s=160);*/
+
+    background-image: url(http://blog.wkchen.com/favicon/160.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
 }
