@@ -17,7 +17,58 @@
   <!--   <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" /> -->
     <base target="_blank">
+    <script>
+        var imgUrl = "hhttp://blog.wkchen.com/favicon/wx.jpeg"; 
 
+        var lineLink = "http://blog.wkchen.com/";
+        var descContent = "我叫陈华强，这里是我的巢"; //分享给好友的时候显示标题和描述，分享到朋友圈只显示标题
+        var shareTitle = "watkin";
+        var appid = "";
+
+        var share = {
+            shareFriend: function () {
+                WeixinJSBridge.invoke(‘sendAppMessage‘, {
+                    "appid": appid,
+                    "img_url": imgUrl,
+                    "img_width": "200",
+                    "img_height": "200",
+                    "link": lineLink,
+                    "desc": descContent,
+                    "title": shareTitle
+                }, function (res) {
+                    //_report(‘send_msg‘, res.err_msg);
+                })
+            },
+            //分享到朋友圈
+            shareTimeline: function () {
+                WeixinJSBridge.invoke(‘shareTimeline‘, {//
+                    "img_url": imgUrl,
+                    "img_width": "200",
+                    "img_height": "200",
+                    "link": lineLink,
+                    "desc": descContent,
+                    "title": shareTitle
+                }, function (res) {
+                    //_report(‘timeline‘, res.err_msg);
+                });
+            }
+        }
+
+
+        document.addEventListener(‘WeixinJSBridgeReady‘, function onBridgeReady() {// 
+
+            //发送给好友
+            WeixinJSBridge.on(‘menu:share:appmessage‘, function (argv) {
+                share.shareFriend();
+            });
+            //分享到朋友圈
+            WeixinJSBridge.on(‘menu:share:timeline‘, function (argv) {
+                share.shareTimeline();
+            });
+
+        }, false);
+
+    </script>
 <!--     <p><span class="footnote"><a href="http://blog.wkchen.com">Watkin</a></span></p> -->
 </head>
 
