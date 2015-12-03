@@ -19,56 +19,64 @@
 
     <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <script>
-        var imgUrl = "http://blog.wkchen.com/favicon/wx.jpeg"; 
-
-        var lineLink = "http://blog.wkchen.com/";
-        var descContent = "我叫陈华强，这里是我的巢"; //分享给好友的时候显示标题和描述，分享到朋友圈只显示标题
-        var shareTitle = "watkin";
-        var appid = "";
-
-        var share = {
-            shareFriend: function () {
-                WeixinJSBridge.invoke(‘sendAppMessage‘, {
-                    "appid": appid,
-                    "img_url": imgUrl,
-                    "img_width": "200",
-                    "img_height": "200",
-                    "link": lineLink,
-                    "desc": descContent,
-                    "title": shareTitle
-                }, function (res) {
-                    //_report(‘send_msg‘, res.err_msg);
-                })
-            },
-            //分享到朋友圈
-            shareTimeline: function () {
-                WeixinJSBridge.invoke(‘shareTimeline‘, {//
-                    "img_url": imgUrl,
-                    "img_width": "200",
-                    "img_height": "200",
-                    "link": lineLink,
-                    "desc": descContent,
-                    "title": shareTitle
-                }, function (res) {
-                    //_report(‘timeline‘, res.err_msg);
-                });
-            }
-        }
-
-
-        document.addEventListener(‘WeixinJSBridgeReady‘, function onBridgeReady() {// 
-
-            //发送给好友
-            WeixinJSBridge.on(‘menu:share:appmessage‘, function (argv) {
-                share.shareFriend();
-            });
-            //分享到朋友圈
-            WeixinJSBridge.on(‘menu:share:timeline‘, function (argv) {
-                share.shareTimeline();
-            });
-
-        }, false);
-
-    </script>
+    <meta name="sharecontent" data-msg-img="http://blog.wkchen.com/favicon/160.jpeg" data-msg-title="陈华强|watkin" data-msg-content="我叫陈华强，这里是我的博客" data-msg-callBack="" data-line-img="http://blog.wkchen.com/favicon/160.jpeg" data-line-title="陈华强|watkin" data-line-callBack=""/>  
+    <script>  
+var imgUrl = 'http://blog.wkchen.com/favicon/160.jpeg';  
+var lineLink = 'http://blog.wkchen.com';  
+var descContent = "我叫陈华强，这里是我的博客";  
+var shareTitle = 'watkin';  
+var appid = 'wxc9937e3a66af6dc8';  
+  
+function shareFriend() {  
+    WeixinJSBridge.invoke('sendAppMessage',{  
+                            "appid": appid,  
+                            "img_url": imgUrl,  
+                            "img_width": "640",  
+                            "img_height": "640",  
+                            "link": lineLink,  
+                            "desc": descContent,  
+                            "title": shareTitle  
+                            }, function(res) {  
+                            _report('send_msg', res.err_msg);  
+                            })  
+}  
+function shareTimeline() {  
+    WeixinJSBridge.invoke('shareTimeline',{  
+                            "img_url": imgUrl,  
+                            "img_width": "640",  
+                            "img_height": "640",  
+                            "link": lineLink,  
+                            "desc": descContent,  
+                            "title": shareTitle  
+                            }, function(res) {  
+                            _report('timeline', res.err_msg);  
+                            });  
+}  
+function shareWeibo() {  
+    WeixinJSBridge.invoke('shareWeibo',{  
+                            "content": descContent,  
+                            "url": lineLink,  
+                            }, function(res) {  
+                            _report('weibo', res.err_msg);  
+                            });  
+}  
+// 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。  
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {  
+  
+        // 发送给好友  
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){  
+            shareFriend();  
+            });  
+  
+        // 分享到朋友圈  
+        WeixinJSBridge.on('menu:share:timeline', function(argv){  
+            shareTimeline();  
+            });  
+  
+        // 分享到微博  
+        WeixinJSBridge.on('menu:share:weibo', function(argv){  
+            shareWeibo();  
+            });  
+        }, false);  
+</script>  
 </head>
