@@ -19,12 +19,16 @@
     <base target="_blank">
     <meta name="sharecontent" data-msg-img="http://blog.wkchen.com/favicon/wx.jpeg" data-msg-title="陈华强|watkin" data-msg-content="我叫陈华强，这里是我的巢" data-msg-callBack="" data-line-img="http://blog.wkchen.com/favicon/wx.jpeg" data-line-title="陈华强|watkin" data-line-callBack=""/>  
     <EMBED src="1.mp3" width=0 height=0 type=audio/mpeg loop="-1" autostart="false" volume="0"></EMBED> 
+<!--     <p><span class="footnote"><a href="http://blog.wkchen.com">Watkin</a></span></p> -->
+</head>
+
+<body class="impress-not-supported">
     <script>  
 var imgUrl = 'http://blog.wkchen.com/favicon/wx.jpeg';  
 var lineLink = 'http://blog.wkchen.com/about.html';  
 var descContent = "我叫陈华强，这里是我的巢";  
 var shareTitle = 'watkin';  
-var appid = 'wxc9937e3a66af6dc8';  
+var appid = '';  
   
 function shareFriend() {  
     WeixinJSBridge.invoke('sendAppMessage',{  
@@ -78,10 +82,6 @@ document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
             });  
         }, false);  
 </script>  
-<!--     <p><span class="footnote"><a href="http://blog.wkchen.com">Watkin</a></span></p> -->
-</head>
-
-<body class="impress-not-supported">
 <!-- <img src="http://blog.wkchen.com/favicon/160.jpg"  width=0 height=0 /> -->
 <div class="fallback-message">
     <p>您的浏览器 <b>不支持</b> impress.js的展示要求, 将为您呈现简化版的展示</p>
