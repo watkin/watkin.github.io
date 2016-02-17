@@ -6,9 +6,9 @@ description: 小小世界
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.wkchen.com/" # the base hostname & protocol for your site\
 
-weibo_username:     1985790613
+#weibo_username:     1985790613
 zhihu_username:     watkin
-# github_username:    watkin
+github_username:    watkin
 twitter_username:  jskiChen
 #facebook_username:  jskiChen
 
