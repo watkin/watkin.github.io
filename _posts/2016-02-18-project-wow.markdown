@@ -2,7 +2,7 @@
 layout: post
 title:  "wow 2d game"
 logo: "wowln.png"
-date:  2016-02-18 21:30:32
+date:  2015-12-18 21:30:32
 subtitle:   ""
 author:     "Watkin"
 categories: project
