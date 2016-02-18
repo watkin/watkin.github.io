@@ -15,4 +15,4 @@ comments: true
 <body>
 </body>
 </center>
-**这是一款对操控十分有要求的3D动作游戏Demo**
+**这是一款对操控十分有要求的3D动作游戏原型Demo**
