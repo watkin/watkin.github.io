@@ -15,7 +15,7 @@ comments: true
 	          <a href="{{ post.url | prepend: site.baseurl }}">
 	          	<table>
 			    <tr>
-			        <td width="18%"> <img width="110" src="{{ prepend: site.baseurl }}/favicon/160.jpg"></img></td>
+			        <td width="18%"> <img width="110" src="{{ prepend: site.baseurl }}/favicon/{{post.logo}}"></img></td>
 			        <td>
 						 <h2 class="post-title">
 			                  {{ post.title }}

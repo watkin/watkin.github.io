@@ -3,6 +3,7 @@ layout: post
 title:  "项目整理"
 date:   2015-11-26 23:30:32
 subtitle:   ""
+logo: "160.jpg"
 author:     "Watkin"
 categories: project
 comments: true
