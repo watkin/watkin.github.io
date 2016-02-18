@@ -30,12 +30,13 @@ comments: true
 			              </div>
 			        </td>
 			    </tr>
-			</table>
-		 </a>
+				</table>
+			 </a>
           <p class="post-meta">
               Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
           </p>
 	      </div>
+	      <br>
    		{% endif %}
     {% endfor %}
 </ul>
