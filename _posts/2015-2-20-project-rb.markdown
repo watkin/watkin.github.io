@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "红刃Online"
+logo: "wowln.png"
 date:   2016-2-18 23:30:32
 subtitle:   ""
-logo: "rbln.png"
 author:     "Watkin"
 categories: project
 comments: true
