@@ -21,5 +21,4 @@ comments: true
 
 [红刃Online IOS 下载]
 
-[红刃Online IOS 下载]: https://itunes.apple.com/cn/app/hong-ren-ling/id1048865505?from=timeline&isa
-ppinstalled=0
+[红刃Online IOS 下载]: https://itunes.apple.com/cn/app/hong-ren-ling/id1048865505?from=timeline&isappinstalled=0
