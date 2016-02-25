@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "场景物体的变换"
+title:  "Unity场景物体的变换"
 date:   2016-2-17 19:30:32
 subtitle:   ""
 author:     "Watkin"
@@ -69,11 +69,10 @@ void Update(){
 注意：不在0-360度范围 编辑器会自动变成该范围的数值 会有些许偏差 所以最好设值得时候都自己转换到0-360范围内
 
 {% highlight c#%}
- 
 eulerAngies;//相对世界进行旋转 
 localEulerAngles;//相对父物体进行旋转
 
-Rotate();// 三种用法
+Rotate();//三种用法
 //沿着设置的欧拉角进行旋转
 Rotate(Vector3 eulerAngles, Space relativeTo = Space.Self);
 //沿着设置的欧拉角进行旋转

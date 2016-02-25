@@ -7,6 +7,7 @@ author:     "Watkin"
 categories: blog
 comments: true
 ---
+[官网API]
 ![1](/public/upload/1.png)
 
 当我们把脚本添加到物体上后
@@ -42,4 +43,4 @@ OnGUI -- 调用完上面的所有的函数后进行调用
 OnDisable -- 当这个组件被隐藏的时候调用     
 OnDestroy -- 当这个组件被销毁的时候调用
 
-
+[官网API]:http://docs.unity3d.com/Manual/ExecutionOrder.html

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "项目整理"
-date:   2015-11-26 23:30:32
+logo: "160.jpg"
+date:  2015-11-26 23:30:32
 subtitle:   ""
 author:     "Watkin"
 categories: project
